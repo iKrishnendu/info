@@ -415,7 +415,7 @@ footer p:nth-child(2){
 	}
 }
 
-@media (max-width:410px){
+@media (max-width:415px){
 	body{
 		margin-right: -10rem;
 	}

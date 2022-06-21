@@ -20,50 +20,8 @@ body{
 
 }
 
-.sidebar {
-    background-color:rgb(197, 194, 194);
-    width: 250px;
-    font-family: 'Josefin Sans', sans-serif;
-    height: 100%;
-    left: -250px;
-    transition: 0.3s ease-in;
-    position: fixed;
-}
-.sidebar nav{
-    padding: 45px;
-
-}
-.sidebar nav{
-    /* background-color: red; */
-    height: 100%;
-    width: 100%;
-    
-}
-
-.sidebar nav li{
-    list-style: none;
-    font-size: 20px;
-    padding: 33px 0;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-}
-
-.sidebar nav li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 20px;
-    display: block;
-    width: 100%;
-    font-weight: 500;
-    border-left: 3px solid transparent;
-    
-}
-
-.sidebar nav li a:hover {
-    color: #4267B2; /*cyan*/
-    border-left-color: #4267B2;
 
 
-}
 
  
 .main{
@@ -173,16 +131,6 @@ body{
 
 
 
-.hamburger{
-    position: absolute;
-    cursor: pointer;
-    top: 10px;
-    left: 10px;
-
-}
-.cross{
-    margin-left: 115px;
-}
 
 
 
@@ -393,7 +341,10 @@ footer p:nth-child(2){
 }
 
 
-
+@media (max-width:600px){
+	.devPic{
+		margin-right: 2rem;
+}
 
 @media (max-width:501px) {
 

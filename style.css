@@ -370,9 +370,9 @@ footer p:nth-child(2){
 }
 
 @media (max-width:425px){
-/* 	body{
+	body{
 		margin-right: -10rem;
-	} */
+	}
 	.devPic{
 		display: block;
 		justify-content: center;

@@ -368,6 +368,13 @@ footer p:nth-child(2){
 
 
 }
+	
+@media (max-width:530px) {
+
+	.devPic{
+		margin-left: -1rem;
+	}
+}
 
 @media (max-width:440px){
 	body{

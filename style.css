@@ -370,6 +370,10 @@ footer p:nth-child(2){
 	body{
 		margin-right: -10rem;
 	}
+	.devPic{
+		margin-left: 5rem;
+		
+	}
 }
 
 
@@ -378,4 +382,8 @@ footer p:nth-child(2){
 		margin-right: -15rem;
 		margin-top: 18rem;
 	}
+	.devPic{
+		margin-bottom: 6rem;
+	}
+
 }

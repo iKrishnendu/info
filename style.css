@@ -343,10 +343,10 @@ footer p:nth-child(2){
 
 @media (max-width:600px){
 	.devPic{
-		margin-right: 2rem;
-}
+		display: block;
+		justify-content: center;
 
-@media (max-width:501px) {
+@media (max-width:508px) {
 
 	body{
 		margin-right: -3rem;
@@ -361,29 +361,40 @@ footer p:nth-child(2){
 }
 
 @media (max-width:440px){
-	body{
+/* 	body{
 		margin-right: -5rem;
+	} */
+	.midcss{
+		margin-right: -2rem;
 	}
 }
 
-@media (max-width:415px){
-	body{
+@media (max-width:425px){
+/* 	body{
 		margin-right: -10rem;
-	}
+	} */
 	.devPic{
-		margin-left: 5rem;
-		
+		display: block;
+		justify-content: center;
 	}
 }
 
 
 @media (max-width:375px){
 	body{
-		margin-right: -15rem;
-		margin-top: 18rem;
+/* 		margin-right: -15rem;
+		margin-top: 18rem; */
+/* 		margin-left: 1.5rem; */
+		margin-top: 300px;
+	}
+	
+	.midcss{
+		margin-left: 1.5rem;
 	}
 	.devPic{
-		margin-bottom: 6rem;
+		display: block;
+		justify-content: center;
+		margin-bottom: 150px;
 	}
 
 }

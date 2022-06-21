@@ -50,7 +50,7 @@ body{
 
 
 .devPic img {
-    height: 68vh;
+    height: 58vh;
     border-radius: 50%;
 
     
@@ -121,12 +121,6 @@ body{
 }
 
 
-.devPic img {
-    height: 58vh;
-    border-radius: 200px;
-    
-    
-}
 
 
 
@@ -316,10 +310,20 @@ footer p:nth-child(2){
 
 
 
+
+
+
+
+
+
+
+
+
 @media (max-width:768px) {
 
 
 	body{
+		/* background-color: red; */
 		/* margin-left: 2rem; */
 		margin-top: 10rem;
 	}
@@ -341,10 +345,15 @@ footer p:nth-child(2){
 }
 
 
+
 @media (max-width:600px){
 	.devPic{
+		/* margin-right: 2rem; */
 		display: block;
 		justify-content: center;
+
+}
+
 
 @media (max-width:508px) {
 
@@ -361,43 +370,51 @@ footer p:nth-child(2){
 }
 
 @media (max-width:440px){
-/* 	body{
-		margin-right: -5rem;
-	} */
+	body{
+		/* margin-right: -4rem; */
+		/* margin-left: 1rem; */
+	}
+
 	.midcss{
 		margin-right: -2rem;
-		margin-left: 10rem;
 	}
 }
 
 @media (max-width:425px){
-	.midcss{
+	body{
 		margin-right: -10rem;
-		margin-left: 8rem;
-	
 	}
 	.devPic{
+		/* margin-left: 5rem; */
+
 		display: block;
 		justify-content: center;
+		
 	}
 }
 
 
 @media (max-width:375px){
 	body{
-/* 		margin-right: -15rem;
-		margin-top: 18rem; */
-/* 		margin-left: 1.5rem; */
+		/* margin-right: -50px; */
 		margin-top: 300px;
+		
+
 	}
-	
+
 	.midcss{
 		margin-left: 1.5rem;
 	}
+
 	.devPic{
+		/* margin-bottom: 6rem; */
 		display: block;
 		justify-content: center;
 		margin-bottom: 150px;
+
 	}
 
+	
+	
 }
+
